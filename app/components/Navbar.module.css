@@ -1,0 +1,113 @@
+.navbar {
+  position: fixed;
+
+  top: 0;
+  left: 0;
+
+  width: 100%;
+
+  z-index: 100;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 1.5rem 5%;
+
+  background: rgba(5, 5, 5, 0.7);
+
+  backdrop-filter: blur(12px);
+
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+/* Logo + TJ icon */
+
+.logo {
+  display: flex;
+  align-items: center;
+
+  gap: 0.7rem;
+
+  color: white;
+
+  font-size: 1rem;
+
+  font-weight: 600;
+
+  letter-spacing: -0.02em;
+
+  text-decoration: none;
+
+  transition: opacity 0.3s ease;
+}
+
+.logo:hover {
+  opacity: 0.6;
+}
+
+.logoIcon {
+  width: 28px;
+  height: 28px;
+
+  object-fit: cover;
+
+  border-radius: 7px;
+
+  flex-shrink: 0;
+}
+
+/* Navigation links */
+
+.links {
+  display: flex;
+
+  align-items: center;
+
+  gap: 2rem;
+}
+
+.link {
+  color: #888;
+
+  font-size: 0.8rem;
+
+  text-decoration: none;
+
+  transition:
+    color 0.3s ease,
+    transform 0.3s ease;
+}
+
+.link:hover {
+  color: white;
+
+  transform: translateY(-1px);
+}
+
+/* Mobile */
+
+@media (max-width: 768px) {
+  .navbar {
+    padding: 1.25rem 5%;
+  }
+
+  .links {
+    gap: 1rem;
+  }
+
+  .link {
+    font-size: 0.75rem;
+  }
+
+  .logo {
+    gap: 0.5rem;
+
+    font-size: 0.9rem;
+  }
+
+  .logoIcon {
+    width: 25px;
+    height: 25px;
+  }
+}

@@ -1,0 +1,164 @@
+.hero {
+  min-height: 100vh;
+
+  display: flex;
+  align-items: center;
+
+  padding: 8rem 5% 5rem;
+
+  position: relative;
+  overflow: hidden;
+}
+
+.container {
+  width: 100%;
+  max-width: 1400px;
+
+  margin: 0 auto;
+}
+
+.content {
+  max-width: 1000px;
+}
+
+.intro {
+  margin-bottom: 1.5rem;
+
+  color: #777;
+
+  font-size: 0.8rem;
+  font-weight: 500;
+
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+.hero h1 {
+  margin: 0 0 1.5rem;
+
+  font-size: clamp(4.5rem, 11vw, 10rem);
+  font-weight: 500;
+
+  line-height: 0.85;
+
+  letter-spacing: -0.07em;
+}
+
+.hero h1 span {
+  color: #777;
+}
+
+.hero h2 {
+  max-width: 850px;
+
+  margin: 0 0 2rem;
+
+  color: #ccc;
+
+  font-size: clamp(1.2rem, 2.5vw, 2rem);
+  font-weight: 400;
+
+  line-height: 1.4;
+}
+
+.hero h2 span {
+  margin: 0 0.3rem;
+
+  color: #555;
+}
+
+.description {
+  max-width: 600px;
+
+  margin: 0 0 2.5rem;
+
+  color: #888;
+
+  font-size: 1rem;
+  line-height: 1.8;
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+
+  gap: 1rem;
+}
+
+.primaryButton,
+.secondaryButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 1rem 1.4rem;
+
+  border: 1px solid rgba(255, 255, 255, 0.2);
+
+  font-size: 0.85rem;
+
+  text-decoration: none;
+
+  transition:
+    transform 0.3s ease,
+    background 0.3s ease,
+    color 0.3s ease,
+    border-color 0.3s ease;
+}
+
+.primaryButton {
+  background: white;
+
+  color: black;
+}
+
+.secondaryButton {
+  color: white;
+}
+
+.primaryButton:hover {
+  transform: translateY(-3px);
+
+  background: #ddd;
+}
+
+.secondaryButton:hover {
+  transform: translateY(-3px);
+
+  background: white;
+
+  color: black;
+
+  border-color: white;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    padding: 7rem 5% 4rem;
+  }
+
+  .content {
+    max-width: 100%;
+  }
+
+  .hero h1 {
+    font-size: clamp(4rem, 18vw, 7rem);
+  }
+
+  .hero h2 {
+    font-size: 1.15rem;
+  }
+
+  .description {
+    font-size: 0.95rem;
+  }
+
+  .actions {
+    width: 100%;
+  }
+
+  .primaryButton,
+  .secondaryButton {
+    width: 100%;
+  }
+}

@@ -1,0 +1,44 @@
+.projects {
+  padding: 8rem 5%;
+
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.heading {
+  margin-bottom: 4rem;
+}
+
+.heading p {
+  margin-bottom: 1rem;
+
+  color: #777;
+
+  font-size: 0.85rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+
+.heading h2 {
+  font-size: clamp(3rem, 6vw, 6rem);
+
+  line-height: 0.95;
+  letter-spacing: -0.05em;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
+  gap: 1rem;
+}
+
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}

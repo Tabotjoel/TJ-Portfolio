@@ -1,0 +1,126 @@
+.skills {
+  padding: 10rem 5%;
+
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.container {
+  max-width: 1200px;
+
+  margin: 0 auto;
+}
+
+.heading {
+  max-width: 750px;
+
+  margin-bottom: 5rem;
+}
+
+.heading p {
+  margin-bottom: 1.5rem;
+
+  color: #666;
+
+  font-size: 0.8rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+
+.heading h2 {
+  margin: 0;
+
+  font-size: clamp(3rem, 6vw, 5rem);
+
+  line-height: 0.95;
+
+  letter-spacing: -0.055em;
+}
+
+.grid {
+  display: grid;
+
+  grid-template-columns: repeat(2, 1fr);
+
+  gap: 1px;
+
+  background: rgba(255, 255, 255, 0.1);
+
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.card {
+  position: relative;
+
+  min-height: 250px;
+
+  padding: 2.5rem;
+
+  background: #080808;
+
+  transition:
+    background 0.4s ease,
+    transform 0.4s ease;
+}
+
+.card:hover {
+  background: #101010;
+
+  transform: translateY(-3px);
+}
+
+.card h3 {
+  margin: 0 0 2.5rem;
+
+  font-size: 1.2rem;
+  font-weight: 500;
+
+  letter-spacing: -0.02em;
+}
+
+.technologies {
+  display: flex;
+
+  flex-wrap: wrap;
+
+  gap: 0.6rem;
+}
+
+.technologies span {
+  padding: 0.55rem 0.8rem;
+
+  border: 1px solid rgba(255, 255, 255, 0.1);
+
+  color: #888;
+
+  font-size: 0.8rem;
+
+  transition:
+    color 0.3s ease,
+    border-color 0.3s ease;
+}
+
+.card:hover .technologies span {
+  color: #bbb;
+
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+@media (max-width: 768px) {
+  .skills {
+    padding: 7rem 5%;
+  }
+
+  .heading {
+    margin-bottom: 3rem;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .card {
+    min-height: auto;
+
+    padding: 2rem;
+  }
+}
