@@ -30,6 +30,13 @@ export default function Hero() {
             <Link href="#contact" className={styles.secondaryButton}>
               Let's Connect
             </Link>
+
+            <Link
+              href="/Tabot_Joel_Ebangha_Resume.pdf"
+              className={styles.primaryButton}
+            >
+              Download CV
+            </Link>
           </div>
         </div>
       </div>
