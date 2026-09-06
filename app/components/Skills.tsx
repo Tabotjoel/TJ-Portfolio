@@ -18,6 +18,7 @@ const skills = [
       "Node.js",
       "PHP",
       "Laravel",
+      "Prisma",
     ],
   },
   {
