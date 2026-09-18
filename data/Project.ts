@@ -113,6 +113,42 @@ links: {
 
   {
     id: 4,
+    title: "CleanCrest",
+    category: "Web Development",
+    description:
+      "A business website for a Douala-based cleaning company, showcasing their services and driving bookings online.",
+    technologies: ["Next.js", "React", "TypeScript"],
+    slug: "cleancrest",
+    image: "/projects/cleancrest/homepage.jpg",
+    links: {
+  github: "",
+  dashboard: "",
+  live: "https://cleancrest.vercel.app",
+},
+    year: "2026",
+
+    overview:
+      "CleanCrest is a business website built for a professional cleaning company in Douala, Cameroon, offering deep cleaning, commercial cleaning, and pest control services. The site presents their full range of services and gives customers a clear path to booking.",
+
+    problem:
+      "The business needed an online presence that matched the quality of their in-person service — one that could clearly communicate their range of services (from deep cleaning to pest control) and make it easy for potential customers to book, all while looking credible and professional to first-time visitors.",
+
+    process: [
+      "Designed the site structure and user flow across Home, Services, Pest Control, About, and Contact pages.",
+      "Built the frontend using Next.js and React.",
+      "Implemented a responsive, mobile-first layout for on-the-go customers.",
+      "Structured a clear service catalog covering deep cleaning, commercial cleaning, upholstery care, post-construction cleaning, and pest control.",
+      "Optimized the booking flow to guide visitors toward a clear call-to-action.",
+    ],
+
+    insights: [
+      "A clear service breakdown helps customers quickly find what they need without confusion.",
+      "A strong call-to-action on every page significantly improves the likelihood of conversion.",
+      "For local service businesses, mobile responsiveness is critical since most visitors browse on their phones.",
+    ],
+  },
+  {
+    id: 5,
     title: "CribHunt",
     category: "Web Development",
     description:

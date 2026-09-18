@@ -15,6 +15,7 @@ const skills = [
       "React",
       "Next.js",
       "JavaScript",
+      "Tailwind",
       "Node.js",
       "PHP",
       "Laravel",

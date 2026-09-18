@@ -26,6 +26,7 @@ export default function Home() {
         <Experience />
 
         <Education />
+        
         <Certifications />
 
         <Contact />
