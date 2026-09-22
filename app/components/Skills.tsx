@@ -20,6 +20,7 @@ const skills = [
       "PHP",
       "Laravel",
       "Prisma",
+      "Postgresql",
     ],
   },
   {

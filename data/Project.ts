@@ -149,7 +149,7 @@ links: {
   },
     {
     id: 5,
-    title: "Kekia Sally",
+    title: "Kimil Fabrics",
     category: "Web Development",
     description:
       "A bilingual e-commerce platform for a Canadian made-to-measure fashion atelier, with a custom admin dashboard and integrated Stripe payments.",
