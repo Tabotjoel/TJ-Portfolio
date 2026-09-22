@@ -164,7 +164,7 @@ links: {
     year: "2026",
 
     overview:
-      "Kekia Sally is a full-stack e-commerce platform built for a Canadian made-to-measure clothing atelier serving both women's and men's wear. The site is fully bilingual (English/French), supports dark and light modes, and gives the business owner a self-serve admin dashboard to manage her entire product catalog and order pipeline without touching code. Currently running in Stripe test mode ahead of full public launch — checkout can be tried end-to-end with a test card, no real charges occur.",
+      "Kimil Fabrics is a full-stack e-commerce platform built for a Canadian made-to-measure clothing atelier serving both women's and men's wear. The site is fully bilingual (English/French), supports dark and light modes, and gives the business owner a self-serve admin dashboard to manage her entire product catalog and order pipeline without touching code. Currently running in Stripe test mode ahead of full public launch — checkout can be tried end-to-end with a test card, no real charges occur.",
 
     problem:
       "The business owner is a skilled tailor with no existing online storefront and no technical background, serving customers across Canada's English and French-speaking markets. She needed a professional, brand-consistent site that could showcase made-to-order pieces, accept real payments, and let her independently add new products, upload her own photography, and track orders — all without ever needing a developer for day-to-day updates.",
