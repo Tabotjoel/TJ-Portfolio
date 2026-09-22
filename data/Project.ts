@@ -147,8 +147,45 @@ links: {
       "For local service businesses, mobile responsiveness is critical since most visitors browse on their phones.",
     ],
   },
-  {
+    {
     id: 5,
+    title: "Kekia Sally",
+    category: "Web Development",
+    description:
+      "A bilingual e-commerce platform for a Canadian made-to-measure fashion atelier, with a custom admin dashboard and integrated Stripe payments.",
+    technologies: ["Next.js", "TypeScript", "Prisma", "PostgreSQL", "Stripe", "Tailwind CSS"],
+    slug: "kekia-sally",
+    image: "/projects/kekia-sally/kimilsfabrics.jpg",
+    links: {
+  github: "",
+  dashboard: "",
+  live: "https://kimilsfabrics.vercel.app",
+},
+    year: "2026",
+
+    overview:
+      "Kekia Sally is a full-stack e-commerce platform built for a Canadian made-to-measure clothing atelier serving both women's and men's wear. The site is fully bilingual (English/French), supports dark and light modes, and gives the business owner a self-serve admin dashboard to manage her entire product catalog and order pipeline without touching code. Currently running in Stripe test mode ahead of full public launch — checkout can be tried end-to-end with a test card, no real charges occur.",
+
+    problem:
+      "The business owner is a skilled tailor with no existing online storefront and no technical background, serving customers across Canada's English and French-speaking markets. She needed a professional, brand-consistent site that could showcase made-to-order pieces, accept real payments, and let her independently add new products, upload her own photography, and track orders — all without ever needing a developer for day-to-day updates.",
+
+    process: [
+      "Designed a custom brand system (color palette, typography, and a signature visual motif) directly from the client's existing logo.",
+      "Built the full storefront with Next.js App Router: home, shop with filtering, product detail pages, cart, and checkout.",
+      "Implemented full English/French localization with next-intl, including a persistent locale switcher across every page.",
+      "Built a password-protected admin dashboard with product CRUD, image uploads, and order management, backed by Prisma and PostgreSQL.",
+      "Integrated Stripe Checkout for CAD payments, including a signed webhook handler to confirm payments and automatically update order status and inventory.",
+      "Deployed to Vercel with Vercel Blob for production image storage and Neon for the production database.",
+    ],
+
+    insights: [
+      "Webhook debugging taught me to verify each layer independently — signature validation, event subscription, and payload delivery are separate failure points that all return misleadingly similar symptoms.",
+      "Building an admin experience for a non-technical user means every decision (form labels, upload flow, status labels) has to be judged by 'would she understand this without me explaining it,' not by developer conventions.",
+      "Localizing a real business's voice in two languages surfaces details a generic i18n setup misses — tone, formality, and even line-break placement in headlines need deliberate attention per language.",
+    ],
+  },
+  {
+    id: 6,
     title: "CribHunt",
     category: "Web Development",
     description:
